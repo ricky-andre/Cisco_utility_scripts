@@ -1,5 +1,3 @@
-#!c:/Program Files (x86)/Python/python
-# this script is quite useful since it generates
 import re
 import os.path
 import csv
@@ -29,7 +27,6 @@ from xlsxwriter.workbook import Workbook
 #
 # of course it works with IOS, NX-OS, IOS-XR since it is only based on the way configuration files
 # are saved and their indentation.
-#     
 
 # files to be converted
 start_dir = "C:/path_to_config_files_directory"
